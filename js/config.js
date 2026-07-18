@@ -7,7 +7,6 @@ const SITE_CONFIG = {
   defaultLanguage: "en", // "en" | "es" — flip to "es" to make Spanish the default
   supportedLanguages: ["en", "es"],
   defaultTheme: "midnight-plum-gold",
-  siteName: "The Financial Talk",
 };
 
 const THEMES = [

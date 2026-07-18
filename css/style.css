@@ -397,6 +397,7 @@ section { padding: 96px 0; }
   gap: 64px;
   align-items: center;
 }
+.story-copy p { text-align: justify; }
 @media (max-width: 860px) { .split { grid-template-columns: 1fr; gap: 40px; } }
 
 /* "Room" treatment for real photos: the section behind sits at the same

@@ -41,8 +41,9 @@ function applyLanguage(lang) {
 
   document.querySelectorAll("[data-i18n-title]").forEach((el) => {
     const value = getTranslation(lang, el.getAttribute("data-i18n-title"));
+    const brandName = getTranslation(lang, "brand.name");
     if (typeof value === "string") {
-      document.title = `${value} · ${SITE_CONFIG.siteName}`;
+      document.title = `${value} · ${brandName}`;
     }
   });
 

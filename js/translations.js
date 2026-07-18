@@ -6,8 +6,9 @@
  */
 const TRANSLATIONS = {
   en: {
-    meta: {
-      titleSuffix: "The Financial Talk",
+    brand: {
+      name: "The Financial Talk",
+      monogram: "FT",
     },
     nav: {
       home: "Home",
@@ -106,8 +107,10 @@ const TRANSLATIONS = {
         eyebrow: "My story",
         title: "Why this matters to me",
         body1:
-          "Ten years ago, I embraced a beautiful new beginning when I immigrated from Guayaquil, Ecuador, to Canada. To build my future, I dedicated myself to earning a Bachelor of Business Economics with Honours, an achievement that ultimately nurtured my passion for financial empowerment. Navigating an unfamiliar economic system was a daunting path, yet mastering the intricacies of Canadian taxation, pension programmes, smart investments, and the proud milestone of buying my first home became my true calling.",
+          "Ten years ago, I embraced a beautiful new beginning when I immigrated from Guayaquil, Ecuador, to Canada. To build my future, I dedicated myself to earning a Bachelor of Business Economics with Honours, an achievement that ultimately nurtured my passion for financial empowerment.",
         body2:
+          "Navigating an unfamiliar economic system was a daunting path, yet mastering the intricacies of Canadian taxation, pension programs, smart investments, and the proud milestone of buying my first home became my true calling.",
+        body3:
           "Today, I pour my heart into uplifting both Canadians and my cherished Latino community, transforming complex financial concepts into clear, graceful, and accessible stepping stones toward security and peace of mind.",
         photoAlt: "Portrait of Nathaly, founder of The Financial Talk, smiling, seated",
       },
@@ -195,8 +198,9 @@ const TRANSLATIONS = {
   },
 
   es: {
-    meta: {
-      titleSuffix: "The Financial Talk",
+    brand: {
+      name: "La Charla Financiera",
+      monogram: "CF",
     },
     nav: {
       home: "Inicio",
@@ -295,8 +299,10 @@ const TRANSLATIONS = {
         eyebrow: "Mi historia",
         title: "Por qué esto me importa",
         body1:
-          "Hace diez años, abracé un hermoso nuevo comienzo al emigrar de Guayaquil, Ecuador, a Canadá. Para construir mi futuro, me dediqué a obtener mi licenciatura en Economía y Negocios con Honores, un logro que terminó por alimentar mi pasión por el empoderamiento financiero. Navegar un sistema económico desconocido fue un camino desafiante, pero dominar los entresijos de los impuestos canadienses, los programas de pensión, las inversiones inteligentes y el orgulloso logro de comprar mi primera casa se convirtió en mi verdadera vocación.",
+          "Hace diez años, abracé un hermoso nuevo comienzo al emigrar de Guayaquil, Ecuador, a Canadá. Para construir mi futuro, me dediqué a obtener mi licenciatura en Economía y Negocios con Honores, un logro que terminó por alimentar mi pasión por el empoderamiento financiero.",
         body2:
+          "Navegar un sistema económico desconocido fue un camino desafiante, pero dominar los entresijos de los impuestos canadienses, los programas de pensión, las inversiones inteligentes y el orgulloso logro de comprar mi primera casa se convirtió en mi verdadera vocación.",
+        body3:
           "Hoy, entrego mi corazón a impulsar tanto a los canadienses como a mi querida comunidad latina, transformando conceptos financieros complejos en pasos claros, elegantes y accesibles hacia la seguridad y la tranquilidad.",
         photoAlt: "Retrato de Nathaly, fundadora de The Financial Talk, sonriendo, sentada",
       },

@@ -28,9 +28,11 @@ assets/images/           — photos (see Images below)
 
 ## Customize
 
-**Brand name** — "The Financial Talk" (search/replace across all `.html`
-files and `js/config.js`'s `siteName` if it changes), with an "FT"
-monogram in the `.logo-mark` spans / favicon data-URI.
+**Brand name** — set per language in `js/translations.js`'s `brand.name`
+/ `brand.monogram` (English: "The Financial Talk" / "FT"; Spanish: "La
+Charla Financiera" / "CF"). The favicon monogram letter is separate —
+it's a static "F" baked into each page's data-URI favicon, since
+favicons can't switch with the page language.
 
 **Copy** — everything is in `js/translations.js`. Every string is
 duplicated under `en` and `es`; edit both to keep languages in sync. The
