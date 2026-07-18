@@ -103,8 +103,8 @@ const TRANSLATIONS = {
           "A bicultural approach to money that honors where you come from and where you're going.",
       },
       story: {
-        eyebrow: "Our story",
-        title: "Why this work matters",
+        eyebrow: "My story",
+        title: "Why this matters to me",
         body1:
           "Ten years ago, I embraced a beautiful new beginning when I immigrated from Guayaquil, Ecuador, to Canada. To build my future, I dedicated myself to earning a Bachelor of Business Economics with Honours, an achievement that ultimately nurtured my passion for financial empowerment. Navigating an unfamiliar economic system was a daunting path, yet mastering the intricacies of Canadian taxation, pension programmes, smart investments, and the proud milestone of buying my first home became my true calling.",
         body2:
@@ -190,7 +190,7 @@ const TRANSLATIONS = {
     footer: {
       tagline: "Financial coaching, rooted in culture.",
       rights: "All rights reserved.",
-      placeholderNotice: "Sample site — content and branding are placeholders.",
+      placeholderNotice: "",
     },
   },
 
@@ -292,8 +292,8 @@ const TRANSLATIONS = {
           "Un enfoque bicultural sobre el dinero que honra de dónde vienes y hacia dónde vas.",
       },
       story: {
-        eyebrow: "Nuestra historia",
-        title: "Por qué importa este trabajo",
+        eyebrow: "Mi historia",
+        title: "Por qué esto me importa",
         body1:
           "Hace diez años, abracé un hermoso nuevo comienzo al emigrar de Guayaquil, Ecuador, a Canadá. Para construir mi futuro, me dediqué a obtener mi licenciatura en Economía y Negocios con Honores, un logro que terminó por alimentar mi pasión por el empoderamiento financiero. Navegar un sistema económico desconocido fue un camino desafiante, pero dominar los entresijos de los impuestos canadienses, los programas de pensión, las inversiones inteligentes y el orgulloso logro de comprar mi primera casa se convirtió en mi verdadera vocación.",
         body2:
@@ -379,7 +379,7 @@ const TRANSLATIONS = {
     footer: {
       tagline: "Asesoría financiera, con raíces culturales.",
       rights: "Todos los derechos reservados.",
-      placeholderNotice: "Sitio de muestra — el contenido y la marca son marcadores de posición.",
+      placeholderNotice: "",
     },
   },
 };
