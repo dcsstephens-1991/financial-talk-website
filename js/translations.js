@@ -106,9 +106,9 @@ const TRANSLATIONS = {
         eyebrow: "Our story",
         title: "Why this work matters",
         body1:
-          "Nathaly immigrated to Canada from Guayaquil, Ecuador, ten years ago. She went on to complete her Bachelor of Business Economics with Honours — and still found that understanding the Canadian financial system on her own was anything but simple.",
+          "Ten years ago, I embraced a beautiful new beginning when I immigrated from Guayaquil, Ecuador, to Canada. To build my future, I dedicated myself to earning a Bachelor of Business Economics with Honours, an achievement that ultimately nurtured my passion for financial empowerment. Navigating an unfamiliar economic system was a daunting path, yet mastering the intricacies of Canadian taxation, pension programmes, smart investments, and the proud milestone of buying my first home became my true calling.",
         body2:
-          "So she made it her mission to change that: learning the taxation system, pension benefits, savings programs, investing, and what it really takes to buy a first home — then turning that knowledge into something clear and transparent. Today, she's driven by that same passion: making financial literacy simple and accessible, for Canadians and for her fellow Latino community alike.",
+          "Today, I pour my heart into uplifting both Canadians and my cherished Latino community, transforming complex financial concepts into clear, graceful, and accessible stepping stones toward security and peace of mind.",
         photoAlt: "Portrait of Nathaly, founder of The Financial Talk, smiling, seated",
       },
       values: {
@@ -295,9 +295,9 @@ const TRANSLATIONS = {
         eyebrow: "Nuestra historia",
         title: "Por qué importa este trabajo",
         body1:
-          "Nathaly emigró a Canadá desde Guayaquil, Ecuador, hace diez años. Completó su licenciatura en Economía y Negocios con Honores — y aun así descubrió que entender el sistema financiero canadiense por su cuenta no era nada sencillo.",
+          "Hace diez años, abracé un hermoso nuevo comienzo al emigrar de Guayaquil, Ecuador, a Canadá. Para construir mi futuro, me dediqué a obtener mi licenciatura en Economía y Negocios con Honores, un logro que terminó por alimentar mi pasión por el empoderamiento financiero. Navegar un sistema económico desconocido fue un camino desafiante, pero dominar los entresijos de los impuestos canadienses, los programas de pensión, las inversiones inteligentes y el orgulloso logro de comprar mi primera casa se convirtió en mi verdadera vocación.",
         body2:
-          "Por eso se propuso cambiar esa realidad: aprendió a fondo el sistema de impuestos, los beneficios de pensión, los programas de ahorro, la inversión y lo que realmente implica comprar una primera casa — y convirtió ese conocimiento en algo claro y transparente. Hoy la impulsa esa misma pasión: hacer que la educación financiera sea simple y accesible, tanto para canadienses como para su comunidad latina.",
+          "Hoy, entrego mi corazón a impulsar tanto a los canadienses como a mi querida comunidad latina, transformando conceptos financieros complejos en pasos claros, elegantes y accesibles hacia la seguridad y la tranquilidad.",
         photoAlt: "Retrato de Nathaly, fundadora de The Financial Talk, sonriendo, sentada",
       },
       values: {

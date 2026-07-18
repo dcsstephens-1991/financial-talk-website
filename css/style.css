@@ -400,19 +400,25 @@ section { padding: 96px 0; }
 @media (max-width: 860px) { .split { grid-template-columns: 1fr; gap: 40px; } }
 
 /* "Room" treatment for real photos: the section behind sits at the same
-   neutral tone as the photo's own studio backdrop (sampled from the
-   photos themselves), and the photo has no frame/mask at all — so the
-   white behind her simply becomes the page, like she's standing in a
-   large room rather than a cut-out photo in a box. */
-.room-section { background: #F1F0EF; }
+   neutral tone as the photo's own studio backdrop (sampled directly
+   from the photos), so the white behind her reads as continuous page
+   space rather than a mismatched box — she looks like she's standing in
+   a large room. The oval frame itself also gets that same background,
+   so even the clipped edge has no seam. */
+.room-section { background: #F7F7F6; }
 
+.room-photo {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  border-radius: 48% 52% 58% 42% / 44% 48% 52% 56%;
+  overflow: hidden;
+  background: #F7F7F6;
+}
 .room-photo img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
-}
-@media (max-width: 860px) {
-  .room-photo { max-width: 420px; margin: 0 auto; }
 }
 
 /* ---------- Card grids ---------- */
