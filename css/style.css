@@ -313,25 +313,14 @@ section { padding: 96px 0; }
   color: #fff;
   padding: 120px 0 140px;
 }
-.hero::before,
-.hero::after {
-  content: "";
+.hero-blob {
   position: absolute;
   border-radius: 50%;
   filter: blur(10px);
-  opacity: 0.35;
+  pointer-events: none;
 }
-.hero::before {
-  width: 420px; height: 420px;
-  background: var(--color-secondary);
-  top: -140px; right: -100px;
-}
-.hero::after {
-  width: 320px; height: 320px;
-  background: #ffffff;
-  bottom: -160px; left: -80px;
-  opacity: 0.12;
-}
+.hero-blob-a { width: 420px; height: 420px; background: var(--color-secondary); opacity: 0.35; top: -140px; right: -100px; }
+.hero-blob-b { width: 320px; height: 320px; background: #ffffff; opacity: 0.12; bottom: -160px; left: -80px; }
 .hero-inner {
   position: relative;
   z-index: 1;
@@ -354,6 +343,31 @@ section { padding: 96px 0; }
 }
 .page-hero .eyebrow { background: rgba(255, 255, 255, 0.18); color: #fff; }
 .page-hero p { color: rgba(255, 255, 255, 0.88); max-width: 560px; margin: 0 auto; }
+.page-hero > .container { position: relative; z-index: 1; }
+
+/* ---------- Depth: parallax background layers ----------
+   Decorative, non-interactive shapes that drift at a different
+   speed than the content as the page scrolls (js/main.js writes
+   the --parallax-y custom property on scroll). */
+.decor-section { position: relative; overflow: hidden; }
+.decor-section > .container { position: relative; z-index: 1; }
+
+.bg-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(8px);
+  opacity: 0.25;
+  pointer-events: none;
+  z-index: 0;
+}
+.bg-blob--primary { background: var(--color-primary); }
+.bg-blob--secondary { background: var(--color-secondary); }
+.bg-blob--accent { background: var(--color-accent); }
+
+[data-parallax] {
+  transform: translate3d(0, var(--parallax-y, 0px), 0);
+  will-change: transform;
+}
 
 /* ---------- Stats ---------- */
 .stats-grid {
@@ -463,6 +477,8 @@ section { padding: 96px 0; }
 
 /* ---------- CTA banner ---------- */
 .cta-banner {
+  position: relative;
+  z-index: 1;
   background: var(--color-bg-alt);
   border-radius: var(--radius-lg);
   padding: 64px 40px;
@@ -590,13 +606,34 @@ section { padding: 96px 0; }
 /* ---------- Scroll reveal ----------
    Only hidden pre-reveal when JS has run (see the early
    `js-enabled` class in <head>) so content stays visible by
-   default if JS fails or is disabled. */
+   default if JS fails or is disabled. Siblings revealed together
+   (e.g. cards in a grid) stagger via --reveal-i, set in main.js. */
 .js-enabled [data-reveal] {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 0.6s ease, transform 0.6s ease;
+  transition-delay: calc(var(--reveal-i, 0) * 90ms);
 }
 .js-enabled [data-reveal].is-visible { opacity: 1; transform: translateY(0); }
+
+/* "scale" variant: elements emerge from slightly behind/below the
+   page, for sections that want a stronger sense of depth than a
+   plain fade (cards, testimonials, steps). */
+.js-enabled [data-reveal="scale"] {
+  transform: translateY(36px) scale(0.92);
+  transition-duration: 0.7s;
+  transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.js-enabled [data-reveal="scale"].is-visible { transform: translateY(0) scale(1); }
+
+@media (prefers-reduced-motion: reduce) {
+  .js-enabled [data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  [data-parallax] { transform: none !important; }
+}
 
 /* ---------- Misc utilities ---------- */
 .text-center { text-align: center; }

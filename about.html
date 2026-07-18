@@ -46,6 +46,8 @@
 <main>
 
   <section class="page-hero">
+    <span class="hero-blob hero-blob-a" data-parallax="0.1" aria-hidden="true"></span>
+    <span class="hero-blob hero-blob-b" data-parallax="-0.07" aria-hidden="true"></span>
     <div class="container">
       <span class="eyebrow" data-i18n="about.hero.eyebrow">About</span>
       <h1 data-i18n="about.hero.title">Financial confidence, culturally rooted</h1>
@@ -53,7 +55,8 @@
     </div>
   </section>
 
-  <section>
+  <section class="decor-section">
+    <span class="bg-blob bg-blob--secondary" data-parallax="0.15" style="width:260px;height:260px;top:0;right:-90px;" aria-hidden="true"></span>
     <div class="container split">
       <div data-reveal>
         <span class="eyebrow" data-i18n="about.story.eyebrow">Our story</span>
@@ -61,7 +64,7 @@
         <p data-i18n="about.story.body1">Placeholder founder story.</p>
         <p data-i18n="about.story.body2">Placeholder mission statement.</p>
       </div>
-      <div class="blob-frame" data-reveal>
+      <div class="blob-frame" data-reveal="scale">
         <span>[ Photo placeholder ]</span>
       </div>
     </div>
@@ -73,8 +76,8 @@
         <span class="eyebrow" data-i18n="about.values.eyebrow">What guides us</span>
         <h2 class="section-title" data-i18n="about.values.title">Our values</h2>
       </div>
-      <div class="card-grid cols-4" data-reveal>
-        <div class="card">
+      <div class="card-grid cols-4">
+        <div class="card" data-reveal="scale">
           <div class="value-item">
             <span class="value-dot"></span>
             <div>
@@ -83,7 +86,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-reveal="scale">
           <div class="value-item">
             <span class="value-dot"></span>
             <div>
@@ -92,7 +95,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-reveal="scale">
           <div class="value-item">
             <span class="value-dot"></span>
             <div>
@@ -101,7 +104,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-reveal="scale">
           <div class="value-item">
             <span class="value-dot"></span>
             <div>
@@ -115,7 +118,7 @@
   </section>
 
   <section>
-    <div class="cta-banner" data-reveal>
+    <div class="cta-banner" data-reveal="scale">
       <h2 data-i18n="about.cta.title">Let's build your plan together</h2>
       <p data-i18n="about.cta.subtitle">Reach out and tell me where you're starting from.</p>
       <a href="contact.html" class="btn btn-primary" data-i18n="about.cta.button">Get in Touch</a>

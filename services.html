@@ -46,6 +46,8 @@
 <main>
 
   <section class="page-hero">
+    <span class="hero-blob hero-blob-a" data-parallax="0.1" aria-hidden="true"></span>
+    <span class="hero-blob hero-blob-b" data-parallax="-0.07" aria-hidden="true"></span>
     <div class="container">
       <span class="eyebrow" data-i18n="services.hero.eyebrow">Services</span>
       <h1 data-i18n="services.hero.title">Ways to work together</h1>
@@ -53,25 +55,26 @@
     </div>
   </section>
 
-  <section>
+  <section class="decor-section">
+    <span class="bg-blob bg-blob--primary" data-parallax="0.15" style="width:260px;height:260px;top:-40px;left:-90px;" aria-hidden="true"></span>
     <div class="container">
-      <div class="card-grid cols-4" data-reveal>
-        <div class="card">
+      <div class="card-grid cols-4">
+        <div class="card" data-reveal="scale">
           <span class="card-tag" data-i18n="services.items.0.tag">Most popular</span>
           <h3 data-i18n="services.items.0.title">1:1 Coaching</h3>
           <p data-i18n="services.items.0.desc">Desc</p>
         </div>
-        <div class="card">
+        <div class="card" data-reveal="scale">
           <span class="card-tag" data-i18n="services.items.1.tag">Community</span>
           <h3 data-i18n="services.items.1.title">Group Workshops</h3>
           <p data-i18n="services.items.1.desc">Desc</p>
         </div>
-        <div class="card">
+        <div class="card" data-reveal="scale">
           <span class="card-tag" data-i18n="services.items.2.tag">Self-paced</span>
           <h3 data-i18n="services.items.2.title">Digital Guides</h3>
           <p data-i18n="services.items.2.desc">Desc</p>
         </div>
-        <div class="card">
+        <div class="card" data-reveal="scale">
           <span class="card-tag" data-i18n="services.items.3.tag">Events</span>
           <h3 data-i18n="services.items.3.title">Speaking Engagements</h3>
           <p data-i18n="services.items.3.desc">Desc</p>
@@ -86,16 +89,16 @@
         <span class="eyebrow" data-i18n="services.process.eyebrow">How it works</span>
         <h2 class="section-title" data-i18n="services.process.title">Three simple steps</h2>
       </div>
-      <div class="steps" data-reveal>
-        <div class="step">
+      <div class="steps">
+        <div class="step" data-reveal="scale">
           <h3 data-i18n="services.process.steps.0.title">Book a call</h3>
           <p data-i18n="services.process.steps.0.desc">Desc</p>
         </div>
-        <div class="step">
+        <div class="step" data-reveal="scale">
           <h3 data-i18n="services.process.steps.1.title">Build your plan</h3>
           <p data-i18n="services.process.steps.1.desc">Desc</p>
         </div>
-        <div class="step">
+        <div class="step" data-reveal="scale">
           <h3 data-i18n="services.process.steps.2.title">Grow with support</h3>
           <p data-i18n="services.process.steps.2.desc">Desc</p>
         </div>
@@ -104,7 +107,7 @@
   </section>
 
   <section>
-    <div class="cta-banner" data-reveal>
+    <div class="cta-banner" data-reveal="scale">
       <h2 data-i18n="services.cta.title">Not sure where to start?</h2>
       <p data-i18n="services.cta.subtitle">Book a free consultation and we'll figure it out together.</p>
       <a href="contact.html" class="btn btn-primary" data-i18n="services.cta.button">Book a Free Consultation</a>
