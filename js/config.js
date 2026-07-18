@@ -7,7 +7,7 @@ const SITE_CONFIG = {
   defaultLanguage: "en", // "en" | "es" — flip to "es" to make Spanish the default
   supportedLanguages: ["en", "es"],
   defaultTheme: "midnight-plum-gold",
-  siteName: "Dinero y Cultura", // placeholder brand name — replace everywhere via find/replace
+  siteName: "The Financial Talk",
 };
 
 const THEMES = [

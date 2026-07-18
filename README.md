@@ -28,14 +28,19 @@ assets/images/           — photos (see Images below)
 
 ## Customize
 
-**Brand name** — replace "Dinero y Cultura" (search/replace across all
-`.html` files and `js/config.js`'s `siteName`), and swap the "DC" monogram
-in the `.logo-mark` spans / favicon data-URI.
+**Brand name** — "The Financial Talk" (search/replace across all `.html`
+files and `js/config.js`'s `siteName` if it changes), with an "FT"
+monogram in the `.logo-mark` spans / favicon data-URI.
 
 **Copy** — everything is in `js/translations.js`. Every string is
-duplicated under `en` and `es`; edit both to keep languages in sync. All
-current copy is placeholder/sample content (fake testimonials, a stand-in
-founder story, `hello@example.com`) — replace before launch.
+duplicated under `en` and `es`; edit both to keep languages in sync. The
+About page bio is Nathaly's real story; the three home-page testimonials
+still use realistic-but-placeholder names (Daniela R., Vanessa M., Camila
+T.) and invented quotes — swap in real client testimonials (with their
+permission) when available. There's no contact email yet — the contact
+page currently points people to Instagram/TikTok only; add a real email
+or booking link in `contact.card.body`/the contact page once you have
+one.
 
 **Default language** — set `defaultLanguage` in `js/config.js` to `"es"`
 when Spanish should be the default. A visitor's choice is remembered

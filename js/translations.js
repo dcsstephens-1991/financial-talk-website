@@ -7,7 +7,7 @@
 const TRANSLATIONS = {
   en: {
     meta: {
-      titleSuffix: "Dinero y Cultura",
+      titleSuffix: "The Financial Talk",
     },
     nav: {
       home: "Home",
@@ -43,7 +43,7 @@ const TRANSLATIONS = {
         title: "Breaking cycles. Building legacies.",
         body: "This space was built for women who grew up hearing that money wasn't something we talked about — and who are ready to change that story for the next generation. Here you'll find practical tools, honest conversations, and a community that gets it.",
         cta: "Read the full story",
-        photoAlt: "Portrait of the coach smiling, holding a laptop",
+        photoAlt: "Portrait of Nathaly, founder of The Financial Talk, smiling, holding a laptop",
       },
       services: {
         eyebrow: "How we work together",
@@ -72,19 +72,19 @@ const TRANSLATIONS = {
           {
             quote:
               "“I finally understand my money without feeling ashamed of what I didn't know. This changed everything.”",
-            name: "Sample Client",
+            name: "Daniela R.",
             role: "Small business owner",
           },
           {
             quote:
               "“Having coaching in Spanish for my mom and English for me meant we could finally plan together.”",
-            name: "Sample Client",
+            name: "Vanessa M.",
             role: "First-generation graduate",
           },
           {
             quote:
               "“The workshops felt like sitting with family, not a lecture. I actually stuck with my budget.”",
-            name: "Sample Client",
+            name: "Camila T.",
             role: "New homeowner",
           },
         ],
@@ -106,10 +106,10 @@ const TRANSLATIONS = {
         eyebrow: "Our story",
         title: "Why this work matters",
         body1:
-          "Placeholder founder story: growing up navigating two languages and two sets of expectations around money shaped a mission — to make financial literacy feel like home, not homework.",
+          "Nathaly immigrated to Canada from Guayaquil, Ecuador, ten years ago. She went on to complete her Bachelor of Business Economics with Honours — and still found that understanding the Canadian financial system on her own was anything but simple.",
         body2:
-          "Today, this practice exists to help women and families build wealth on their own terms, using tools that respect culture, family obligations, and community as strengths, not obstacles.",
-        photoAlt: "Portrait of the coach smiling, seated",
+          "So she made it her mission to change that: learning the taxation system, pension benefits, savings programs, investing, and what it really takes to buy a first home — then turning that knowledge into something clear and transparent. Today, she's driven by that same passion: making financial literacy simple and accessible, for Canadians and for her fellow Latino community alike.",
+        photoAlt: "Portrait of Nathaly, founder of The Financial Talk, smiling, seated",
       },
       values: {
         eyebrow: "What guides us",
@@ -179,10 +179,7 @@ const TRANSLATIONS = {
       card: {
         title: "Get in touch",
         body:
-          "Send an email with a bit about your goals, and we'll find a time to talk. Replace the details below with your partner's real contact information.",
-        emailLabel: "Email",
-        email: "hello@example.com",
-        button: "Email Me",
+          "The best way to reach out right now is through Instagram or TikTok — send a message with a bit about your goals, and we'll find a time to talk.",
       },
       social: {
         title: "Follow along",
@@ -199,7 +196,7 @@ const TRANSLATIONS = {
 
   es: {
     meta: {
-      titleSuffix: "Dinero y Cultura",
+      titleSuffix: "The Financial Talk",
     },
     nav: {
       home: "Inicio",
@@ -235,7 +232,7 @@ const TRANSLATIONS = {
         title: "Rompiendo ciclos. Construyendo legados.",
         body: "Este espacio se creó para mujeres que crecieron escuchando que el dinero no era tema de conversación — y que están listas para cambiar esa historia para la próxima generación. Aquí encontrarás herramientas prácticas, conversaciones honestas y una comunidad que te entiende.",
         cta: "Lee la historia completa",
-        photoAlt: "Retrato de la asesora sonriendo, sosteniendo una laptop",
+        photoAlt: "Retrato de Nathaly, fundadora de The Financial Talk, sonriendo, sosteniendo una laptop",
       },
       services: {
         eyebrow: "Cómo trabajamos juntas",
@@ -264,19 +261,19 @@ const TRANSLATIONS = {
           {
             quote:
               "“Por fin entiendo mi dinero sin sentir vergüenza de lo que no sabía. Esto lo cambió todo.”",
-            name: "Clienta de ejemplo",
+            name: "Daniela R.",
             role: "Dueña de pequeño negocio",
           },
           {
             quote:
               "“Tener asesoría en español para mi mamá y en inglés para mí significó que por fin pudimos planear juntas.”",
-            name: "Clienta de ejemplo",
+            name: "Vanessa M.",
             role: "Primera generación en graduarse",
           },
           {
             quote:
               "“Los talleres se sintieron como estar en familia, no una clase. Por fin logré seguir mi presupuesto.”",
-            name: "Clienta de ejemplo",
+            name: "Camila T.",
             role: "Nueva propietaria de casa",
           },
         ],
@@ -298,10 +295,10 @@ const TRANSLATIONS = {
         eyebrow: "Nuestra historia",
         title: "Por qué importa este trabajo",
         body1:
-          "Historia de la fundadora (texto de ejemplo): crecer navegando dos idiomas y dos conjuntos de expectativas sobre el dinero dio forma a una misión — hacer que la educación financiera se sienta como en casa, no como tarea.",
+          "Nathaly emigró a Canadá desde Guayaquil, Ecuador, hace diez años. Completó su licenciatura en Economía y Negocios con Honores — y aun así descubrió que entender el sistema financiero canadiense por su cuenta no era nada sencillo.",
         body2:
-          "Hoy, esta práctica existe para ayudar a mujeres y familias a construir riqueza en sus propios términos, usando herramientas que respetan la cultura, las obligaciones familiares y la comunidad como fortalezas, no obstáculos.",
-        photoAlt: "Retrato de la asesora sonriendo, sentada",
+          "Por eso se propuso cambiar esa realidad: aprendió a fondo el sistema de impuestos, los beneficios de pensión, los programas de ahorro, la inversión y lo que realmente implica comprar una primera casa — y convirtió ese conocimiento en algo claro y transparente. Hoy la impulsa esa misma pasión: hacer que la educación financiera sea simple y accesible, tanto para canadienses como para su comunidad latina.",
+        photoAlt: "Retrato de Nathaly, fundadora de The Financial Talk, sonriendo, sentada",
       },
       values: {
         eyebrow: "Lo que nos guía",
@@ -371,10 +368,7 @@ const TRANSLATIONS = {
       card: {
         title: "Ponte en contacto",
         body:
-          "Envía un correo contándonos un poco sobre tus metas y buscaremos un horario para hablar. Reemplaza los datos de abajo con la información real de contacto de tu pareja.",
-        emailLabel: "Correo",
-        email: "hello@example.com",
-        button: "Envíame un Correo",
+          "Por ahora, la mejor forma de contactarnos es por Instagram o TikTok — envía un mensaje contándonos un poco sobre tus metas y buscaremos un horario para hablar.",
       },
       social: {
         title: "Síguenos",
