@@ -6,11 +6,32 @@
 const SITE_CONFIG = {
   defaultLanguage: "en", // "en" | "es" — flip to "es" to make Spanish the default
   supportedLanguages: ["en", "es"],
-  defaultTheme: "fuchsia-gold",
+  defaultTheme: "midnight-plum-gold",
   siteName: "Dinero y Cultura", // placeholder brand name — replace everywhere via find/replace
 };
 
 const THEMES = [
+  {
+    // Real brand palette, supplied directly (not derived) — keep this one
+    // first/default since it's the actual chosen brand identity.
+    id: "midnight-plum-gold",
+    labelKey: "theme.midnightPlumGold",
+    swatch: ["#5C3FA0", "#E8C97A"],
+    vars: {
+      "--color-primary": "#5C3FA0",
+      "--color-primary-dark": "#2A1A4E",
+      "--color-primary-light": "#E9E1F5",
+      "--color-secondary": "#E8C97A",
+      "--color-secondary-dark": "#C9A94F",
+      "--color-accent": "#1C1035",
+      "--color-bg": "#FAF7FC",
+      "--color-bg-alt": "#F1EAF8",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#1C1035",
+      "--color-text-muted": "#4A3F6B",
+      "--gradient-hero": "linear-gradient(135deg, #5C3FA0 0%, #2A1A4E 55%, #1C1035 100%)",
+    },
+  },
   {
     id: "fuchsia-gold",
     labelKey: "theme.fuchsiaGold",

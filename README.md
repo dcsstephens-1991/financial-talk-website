@@ -8,7 +8,6 @@ anywhere (GitHub Pages, Netlify, any static host, or just double-click
 ## Preview locally
 
 ```
-cd website
 python3 -m http.server 8000
 ```
 
@@ -17,14 +16,14 @@ Then open http://localhost:8000.
 ## Structure
 
 ```
-website/
-  index.html, about.html, services.html, contact.html
-  css/style.css        — all styling, theme via CSS custom properties
-  js/config.js          — site name, default language, color palettes
-  js/translations.js    — all English/Spanish copy
-  js/i18n.js             — language-switching engine
-  js/theme.js            — color-palette-switching engine
-  js/main.js              — nav, scroll reveal, wiring
+index.html, about.html, services.html, contact.html
+css/style.css        — all styling, theme via CSS custom properties
+js/config.js          — site name, default language, color palettes
+js/translations.js    — all English/Spanish copy
+js/i18n.js             — language-switching engine
+js/theme.js            — color-palette-switching engine
+js/main.js              — nav, scroll reveal, parallax, wiring
+assets/images/           — photos (see Images below)
 ```
 
 ## Customize
@@ -48,15 +47,23 @@ add `"fr"` to `SITE_CONFIG.supportedLanguages` in `js/config.js`. It will
 automatically get a switcher button — add `<button data-lang-option="fr">FR</button>`
 next to the EN/ES buttons in each page's `.lang-switcher`.
 
-**Colors** — three palettes ship by default (Fuchsia & Gold, Terracotta &
-Turquoise, Violet & Coral), switchable live via the swatch picker in the
-header. Add more by adding an entry to the `THEMES` array in
-`js/config.js` — it appears in the picker automatically. Each theme is
-just a set of CSS custom property overrides.
+**Colors** — four palettes ship by default. `midnight-plum-gold` (Midnight
+#1C1035, Deep Plum #2A1A4E, Violet #5C3FA0, Soft Gold #E8C97A, Body Plum
+#4A3F6B for muted text) is the real brand palette and the default theme;
+Fuchsia & Gold, Terracotta & Turquoise, and Violet & Coral are alternates.
+Switchable live via the swatch picker in the header. Add more by adding
+an entry to the `THEMES` array in `js/config.js` — it appears in the
+picker automatically. Each theme is just a set of CSS custom property
+overrides.
 
-**Images** — there are no real photos; the gradient "blob" shapes are
-CSS/placeholder stand-ins (`.blob-frame`). Replace with an `<img>` inside
-once real photos exist.
+**Images** — `assets/images/home-about.jpg` and `assets/images/about-story.jpg`
+are the two photos currently used, cropped to fill the "blob" shapes
+(`.blob-frame`) on the home and about pages. Three more portraits are in
+`assets/images/` (`extra-purple-standing.jpg`, `extra-black-tan-bg.jpg`,
+`extra-money-throw.jpg`) but not placed on any page yet — swap them in or
+add new `<img>`s where useful. Each photo's alt text is a translation key
+(e.g. `home.about.photoAlt` in `js/translations.js`) — update it to
+describe the actual photo/person once you know who's featured.
 
 **Contact form / booking** — `contact.html` currently only has a mailto
 link and social icons (no working form, since there's no backend). Wire

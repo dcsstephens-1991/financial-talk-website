@@ -416,6 +416,12 @@ section { padding: 96px 0; }
   text-align: center;
   padding: 24px;
 }
+.blob-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 /* ---------- Card grids ---------- */
 .card-grid {

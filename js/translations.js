@@ -19,6 +19,7 @@ const TRANSLATIONS = {
     lang: { label: "Language" },
     theme: {
       label: "Color palette",
+      midnightPlumGold: "Midnight Plum & Gold",
       fuchsiaGold: "Fuchsia & Gold",
       terracottaTurquesa: "Terracotta & Turquoise",
       violetaCoral: "Violet & Coral",
@@ -42,6 +43,7 @@ const TRANSLATIONS = {
         title: "Breaking cycles. Building legacies.",
         body: "This space was built for women who grew up hearing that money wasn't something we talked about — and who are ready to change that story for the next generation. Here you'll find practical tools, honest conversations, and a community that gets it.",
         cta: "Read the full story",
+        photoAlt: "Portrait of the coach smiling, holding a laptop",
       },
       services: {
         eyebrow: "How we work together",
@@ -107,6 +109,7 @@ const TRANSLATIONS = {
           "Placeholder founder story: growing up navigating two languages and two sets of expectations around money shaped a mission — to make financial literacy feel like home, not homework.",
         body2:
           "Today, this practice exists to help women and families build wealth on their own terms, using tools that respect culture, family obligations, and community as strengths, not obstacles.",
+        photoAlt: "Portrait of the coach smiling, seated",
       },
       values: {
         eyebrow: "What guides us",
@@ -208,6 +211,7 @@ const TRANSLATIONS = {
     lang: { label: "Idioma" },
     theme: {
       label: "Paleta de colores",
+      midnightPlumGold: "Medianoche, Ciruela y Oro",
       fuchsiaGold: "Fucsia y Oro",
       terracottaTurquesa: "Terracota y Turquesa",
       violetaCoral: "Violeta y Coral",
@@ -231,6 +235,7 @@ const TRANSLATIONS = {
         title: "Rompiendo ciclos. Construyendo legados.",
         body: "Este espacio se creó para mujeres que crecieron escuchando que el dinero no era tema de conversación — y que están listas para cambiar esa historia para la próxima generación. Aquí encontrarás herramientas prácticas, conversaciones honestas y una comunidad que te entiende.",
         cta: "Lee la historia completa",
+        photoAlt: "Retrato de la asesora sonriendo, sosteniendo una laptop",
       },
       services: {
         eyebrow: "Cómo trabajamos juntas",
@@ -296,6 +301,7 @@ const TRANSLATIONS = {
           "Historia de la fundadora (texto de ejemplo): crecer navegando dos idiomas y dos conjuntos de expectativas sobre el dinero dio forma a una misión — hacer que la educación financiera se sienta como en casa, no como tarea.",
         body2:
           "Hoy, esta práctica existe para ayudar a mujeres y familias a construir riqueza en sus propios términos, usando herramientas que respetan la cultura, las obligaciones familiares y la comunidad como fortalezas, no obstáculos.",
+        photoAlt: "Retrato de la asesora sonriendo, sentada",
       },
       values: {
         eyebrow: "Lo que nos guía",
