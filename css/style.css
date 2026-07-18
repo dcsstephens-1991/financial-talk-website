@@ -399,28 +399,20 @@ section { padding: 96px 0; }
 }
 @media (max-width: 860px) { .split { grid-template-columns: 1fr; gap: 40px; } }
 
-.blob-frame {
-  position: relative;
-  aspect-ratio: 4 / 5;
-  border-radius: 48% 52% 58% 42% / 44% 48% 52% 56%;
-  background: var(--gradient-hero);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-.blob-frame span {
-  color: rgba(255, 255, 255, 0.85);
-  font-family: var(--font-display);
-  font-size: 1.1rem;
-  text-align: center;
-  padding: 24px;
-}
-.blob-frame img {
+/* "Room" treatment for real photos: the section behind sits at the same
+   neutral tone as the photo's own studio backdrop (sampled from the
+   photos themselves), and the photo has no frame/mask at all — so the
+   white behind her simply becomes the page, like she's standing in a
+   large room rather than a cut-out photo in a box. */
+.room-section { background: #F1F0EF; }
+
+.room-photo img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   display: block;
+}
+@media (max-width: 860px) {
+  .room-photo { max-width: 420px; margin: 0 auto; }
 }
 
 /* ---------- Card grids ---------- */
